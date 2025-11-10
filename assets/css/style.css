@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    margin: auto;
+    font-family: Montserrat,Open Sans;
+}
+header{
+    width: 100%;
+    top:0;
+    text-align: center;
+}
+header img{
+    vertical-align: middle;
+    display: inline-block;
+}
+header h1{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 4.69em;
+    color:#1E3A8A;
+}
+header h2{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 4.69em;
+    color:#E53935;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    background-color: #1E3A8A;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    width: 18%;
+    margin-top: 15px;
+}
+nav ul li a:hover {
+    background-color: #E53935;
+}
+
+nav ul li a:active {
+    background-color: #E53935;
+}
+div {
+    margin: 15px;
+}
+section {
+    width: 75%;
+    float: left;
+    padding: 20px;
+}
+article{
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+article h3{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    font-size: 1.56em;
+}
+article h4{
+    color: #43A047;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+}
+article img{
+    float: right;
+    margin-left: 20px; 
+    height: auto;
+}
+article p{
+    color: #2E7D32;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+article form{
+    color: #1E3A8A;
+    margin-bottom: 15px;
+}
+form {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+.fila{
+    display: table-row;
+    margin-bottom: 10px;	
+}
+.fila label, .fila input, .fila textarea{
+    display: table-cell;
+    margin:10px;
+    padding: 20px;
+    vertical-align: middle;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    text-align:left;
+}
+label[for="nombre"],[for="correo"], [for="edad"],[for="telefono"],[for=consulta]{
+    font-weight: bold;
+}
+input[type="text"], input[type="email"],input[type="number"], textarea {
+    width: 800px;
+    height: 20px;
+    border: 1px solid #CCCCCC;
+}
+button {
+    display: table-cell;
+    width: 50%;
+    margin: 10px;
+    background-color: #1E3A8A;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}    
+button:hover {
+    background-color: #E53935;
+}
+button:active {
+    background-color: #E53935;
+}
+table{
+    color:#1E3A8A;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #E53935;
+}
+caption{
+    background-color: #1E3A8A;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+thead th {
+    background-color: #1E3A8A;
+    color: white;
+    border: 1px solid #E53935;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.25em;
+    white-space: nowrap;
+}
+thead th:first-child {
+    background-color: #E53935;
+    color: white;
+
+}
+tbody td {
+    border: 1px solid #E53935;
+    text-align: center;
+    padding: 8px;
+    white-space: nowrap;
+}
+tbody td:nth-child(even){
+    background-color: #f4f4f4;
+}
+tbody td:nth-child(odd){
+    background-color: white;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: auto;
+    border-radius: 10px ;
+}
+aside h4{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+aside h5{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+aside p{
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+aside ul li {
+    display: inline;
+    margin-right: 10px;
+}
+aside ul li a {
+    background-color: #43A047;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
+aside ul li a:hover {
+    background-color: #FBC02D;
+}
+aside ul li a:active {
+    background-color: #FBC02D;
+}
+#contacto{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#contacto h5{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+#contacto h6{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+#contacto p{
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+#contacto a{
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1E3A8A;
+    color: white;    
+}
+.copy{
+    float:left;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-size: 1.00em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+footer a:hover {
+    background-color: #E53935;
+    border-radius: 10px;
+}
+.redes{
+    float:right;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.mapa{
+    float: left;
+    margin-left: 20px;
+    vertical-align: middle;
+}
