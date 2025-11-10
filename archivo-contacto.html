@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="LuisC">
+        <meta name="title" content="Supermercados DIW">
+        <meta name="description" content="Web para venta de productos de supermercado seccion contacto">
+        <title>Tienda Supermercados DIW-contacto</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="assets/images/Logo.png" alt="Logo" width="100"></a>
+            <h1>SUPERMERCADO</h1>
+            <h2>DIW</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="archivo-servicios.html">Servicios</a></li>
+                <li><a href="archivo-contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <section>
+                <article> 
+                    <h3>Formulario de contacto</h3>
+                    <h4>Estamos siempre a tu disposición</h4>
+                    <form method="post">
+                        <div class="fila">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" maxlength="40" pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ0-9 ]+$" placeholder="Elver Galarga Perez" required autofocus>
+                        </div>
+                        <div class="fila">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="elver.galarga@gmail.com" required>
+                        </div>
+                        <div class="fila">
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" name="edad" min="18" max="99" placeholder="33" required>
+                        </div>
+                        <div class="fila">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" id="telefono" name="telefono" placeholder="654859785" required>
+                        </div>
+
+                        <div class="fila">
+                            <label for="consulta">Escriba aquí su consulta</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit." required></textarea>
+                        </div>
+
+                        <div class="fila">
+                            <input type="radio" name="boton1" value="1" required>Acepto los terminos de política de privacidad y cookies
+                        </div>
+                        <div class="fila">
+                            <button type="submit">Enviar</button>
+                        </div>    
+                    </form>
+                </article>
+            </section>
+            <aside>
+                <h5>Ofertas Especiales</h5>
+                <p>¡No te pierdas nuestras ofertas exclusivas!</p>
+                <ul>
+                    <li><a href="#">Historial</a></li>
+                    <li><a href="#">Frutas y Verduras - descuento 20%</a></li>
+                    <li><a href="#">Carnes - descuento 15%</a></li>
+                    <li><a href="#">Lácteos - descuento 10%</a></li>
+                </ul>
+            </aside>
+            <section id="contacto">
+                <h6>Datos de contacto</h6>
+                    <p>Dirección: Calle Panamá 22, Alicante</p>
+                    <p>Email: <a href="mailto:supermercados.diw@gmail.com">supermercados.diw@gmail.com</a></p>
+                    <p>Teléfono: <a href="tel:658785145">658 785 145</a></p>
+            </section>
+        </div>
+        <footer>
+            <div class="copy">
+                <p>&copy; 2025 SUPERMERCADO DIW</p>
+                <a href="#">Política de privacidad y cookies</a>
+            </div>
+            <div class="redes">
+                <a href="#"><img src="assets/images/facebook.png" alt="Logo2"></a>
+                <a href="#"><img src="assets/images/instagram.png" alt="Logo3"></a>
+                <a href="#"><img src="assets/images/twiter.png" alt="Logo4"></a>
+                <a href="#"><img src="assets/images/whatsapp.png" alt="Logo5"></a>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.035536249493!2d-0.5175785427680715!3d38.33295400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237b66cba9ec3%3A0xeebeba2996a50cf2!2sInstituto%20de%20secundaria%20IES%20Mare%20Nostrum!5e1!3m2!1ses!2ses!4v1760365574238!5m2!1ses!2ses" width="200" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>  
+        </footer>
+    </body>
+</html>
