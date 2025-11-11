@@ -285,3 +285,80 @@ footer a:hover {
     margin-left: 20px;
     vertical-align: middle;
 }
+
+@media (min-width:700px) and (max-width:1200px) {
+  body { 
+    font-family: 'Calibri';
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;                
+    padding: 10px;
+  }
+
+  aside,section,#contacto {
+    float: none;
+    width: auto;
+  }
+  .main img, .main table { 
+    max-width: 100%; 
+    height: auto; 
+  }
+  .main table {
+  width: 100%;
+  }
+  .main form {
+  width: 100%;
+  }
+  #nombre,#email,#edad,#telefono,#message{
+    width: 400px;
+  }
+  footer{
+   position:fixed;
+   height: 80px;
+  }
+}
+
+@media (max-width:699px) {
+  body { 
+    font-family: 'Times New Roman'; 
+  }
+  header{
+    font-size: 10px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+  }
+  aside,section,#contacto {
+    float: none;
+    width: 100%;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  .main caption,  tbody{
+    display: none;
+  }
+  .main table, thead, tr, th {
+    display: block;
+    width: 100%;
+  }
+  .main form {
+  width: 100%;
+  }
+  #nombre,#email,#edad,#telefono,#message{
+    width: 200px;
+  }
+  footer{
+   position:fixed;
+   height: 80px;
+  }
+  .mapa,.redes{
+    display: none;
+  }
+}
